@@ -1,0 +1,31 @@
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Tic Tac Toe.csprojAssemblyReference.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\UltimateTicTacToe.Game.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\UltimateTicTacToe.GameOptionsDialog.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\UltimateTicTacToe.MainWindow.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Tic Tac Toe.csproj.GenerateResource.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Tic Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Tic Tac Toe.csproj.CopyComplete
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate_TicTacToe.Properties.Resources.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\Ultimate TicTacToe.exe.config
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\Ultimate TicTacToe.exe
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\Ultimate TicTacToe.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\UTTTGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate TicTacToe.exe
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate TicTacToe.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\Ultimate TicTacToe.exe.config
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\Ultimate TicTacToe.exe
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\Ultimate TicTacToe.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csprojAssemblyReference.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.Game.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.GameOptionsDialog.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.MainWindow.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate_TicTacToe.Properties.Resources.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csproj.GenerateResource.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csproj.CopyComplete
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate TicTacToe.exe
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate TicTacToe.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.OnlineGame.resources

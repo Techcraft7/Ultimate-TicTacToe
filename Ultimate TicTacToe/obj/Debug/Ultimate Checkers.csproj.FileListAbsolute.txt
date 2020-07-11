@@ -1,0 +1,15 @@
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\Ultimate Checkers.exe.config
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\Ultimate Checkers.exe
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\Ultimate Checkers.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Checkers.csprojAssemblyReference.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate_Checkers.Properties.Resources.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Checkers.csproj.GenerateResource.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Checkers.csproj.CoreCompileInputs.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Checkers.exe
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Checkers.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\UCGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\bin\Debug\UCGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\UltimateCheckers.GameOptionsDialog.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\UltimateCheckers.MainWindow.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\Ultimate Checkers.csproj.CopyComplete
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\Ultimate Checkers\obj\Debug\UltimateCheckers.Game.resources

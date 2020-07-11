@@ -1,0 +1,6 @@
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\obj\Debug\UTTTGameLib.csproj.CoreCompileInputs.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\obj\Debug\UTTTGameLib.csprojAssemblyReference.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\bin\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\bin\Debug\UTTTGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\obj\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\obj\Debug\UTTTGameLib.pdb
