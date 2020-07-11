@@ -11,7 +11,10 @@ namespace UTTTNetLib.Packets
 	public class HTTPRequestPacket : Packet
 	{
 		public override byte GetID() => (byte)'G';
-		public override void Handle(Socket s)
+
+		public override void HandleClientSide(Socket s) => _ = "Not used";
+
+		public override void HandleServerSide(Socket s)
 		{
 			byte[] buf = new byte[1] { GetID() };
 			while (buf.Last() != (byte)'\r')
@@ -29,11 +32,6 @@ namespace UTTTNetLib.Packets
 			string res = HTTPParser.GetResponse(req);
 			_ = s.Send(Encoding.ASCII.GetBytes(res), SocketFlags.None);
 			s.Disconnect(false);
-		}
-
-		public override void Write(Socket s)
-		{
-			throw new NotImplementedException();
 		}
 	}
 }

@@ -130,7 +130,7 @@ namespace UTTTNetLib
 								{
 									invalid = false;
 									Log($"Got packet {ID:X2}");
-									p.Handle(s);
+									p.HandleServerSide(s);
 									break;
 								}
 							}

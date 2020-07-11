@@ -6,13 +6,22 @@ namespace UTTTNetLib
 {
 	public abstract class RoomboundPacket : Packet
 	{
-		public override void Handle(Socket s)
+		public override void HandleServerSide(Socket s)
 		{
 			byte[] data = NetUtils.Read(s, sizeof(uint));
 			uint ID = BitConverter.ToUInt32(data, 0);
-			HandleRoombound(s, ID, data.Skip(sizeof(uint)).ToArray());
+			HandleRoomboundServer(s, ID, data.Skip(sizeof(uint)).ToArray());
 		}
 
-		protected abstract void HandleRoombound(Socket s, uint roomID, byte[] data);
+		public override void HandleClientSide(Socket s)
+		{
+			byte[] data = NetUtils.Read(s, sizeof(uint));
+			uint ID = BitConverter.ToUInt32(data, 0);
+			HandleRoomboundClient(s, ID, data.Skip(sizeof(uint)).ToArray());
+		}
+
+		protected abstract void HandleRoomboundServer(Socket s, uint roomID, byte[] data);
+		protected abstract void HandleRoomboundClient(Socket s, uint roomID, byte[] data);
+		
 	}
 }

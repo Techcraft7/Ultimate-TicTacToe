@@ -18,17 +18,17 @@ namespace UTTTNetLib.Packets
 		}
 
 		public override byte GetID() => 0xFF;
-		public override void Handle(Socket s)
-		{
-			_ = MessageBox.Show($"{Encoding.ASCII.GetString(NetUtils.Read(s, BitConverter.ToInt32(NetUtils.Read(s, sizeof(int)), 0)))}");
-		}
-
-		public override void Write(Socket s)
+		public override void HandleServerSide(Socket s)
 		{
 			byte[] data = Encoding.ASCII.GetBytes(reason);
 			NetUtils.Write(s, BitConverter.GetBytes(Encoding.ASCII.GetByteCount(reason)));
 			NetUtils.Write(s, data);
 			s.Disconnect(false);
+		}
+
+		public override void HandleClientSide(Socket s)
+		{
+			_ = MessageBox.Show($"{Encoding.ASCII.GetString(NetUtils.Read(s, BitConverter.ToInt32(NetUtils.Read(s, sizeof(int)), 0)))}");
 		}
 	}
 }

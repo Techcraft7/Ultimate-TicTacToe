@@ -13,7 +13,7 @@ namespace UTTTNetLib.Packets
 		private static Dictionary<Socket, byte[]> pings = new Dictionary<Socket, byte[]>();
 
 		public override byte GetID() => 0;
-		public override void Handle(Socket s)
+		public override void HandleServerSide(Socket s)
 		{
 			byte[] data = NetUtils.Read(s, 4);
 			if (pings.ContainsKey(s))
@@ -24,7 +24,7 @@ namespace UTTTNetLib.Packets
 			Write(s);
 		}
 
-		public override void Write(Socket s)
+		public override void HandleClientSide(Socket s)
 		{
 			if (pings.ContainsKey(s))
 			{

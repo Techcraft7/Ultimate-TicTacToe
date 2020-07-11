@@ -9,14 +9,16 @@ namespace UTTTNetLib.Packets
 {
 	public class JoinRoomPacket : RoomboundPacket
 	{
+		public static uint CURRENT_ROOM;
+
 		public override byte GetID() => 1;
 
-		public override void Write(Socket s)
+		protected override void HandleRoomboundClient(Socket s, uint roomID, byte[] data)
 		{
-			throw new NotImplementedException();
+			
 		}
 
-		protected override void HandleRoombound(Socket s, uint roomID, byte[] data)
+		protected override void HandleRoomboundServer(Socket s, uint roomID, byte[] data)
 		{
 			
 		}

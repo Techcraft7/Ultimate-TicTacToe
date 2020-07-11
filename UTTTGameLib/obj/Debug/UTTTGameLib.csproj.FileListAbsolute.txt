@@ -4,3 +4,9 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\bin\Debug\UTTTGameLib.pdb
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\obj\Debug\UTTTGameLib.dll
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate Checkers\UCGameLib\obj\Debug\UTTTGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\bin\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\bin\Debug\UTTTGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.csprojAssemblyReference.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.csproj.CoreCompileInputs.cache
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.pdb

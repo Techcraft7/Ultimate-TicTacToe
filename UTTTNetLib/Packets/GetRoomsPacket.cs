@@ -9,10 +9,15 @@ namespace UTTTNetLib.Packets
 {
 	public class GetRoomsPacket : Packet
 	{
-		private static List<uint> ROOM_IDS => Server.Rooms.Select(kv => kv.Key).ToList();
+		public static List<uint> ROOM_IDS = new List<uint>();
 
 		public override byte GetID() => 2;
-		public override void Handle(Socket s)
+		public override void HandleServerSide(Socket s)
+		{
+			
+		}
+
+		public override void HandleClientSide(Socket s)
 		{
 			ROOM_IDS.Clear();
 			int size = BitConverter.ToInt32(NetUtils.Read(s, sizeof(int)), 0);
@@ -20,11 +25,6 @@ namespace UTTTNetLib.Packets
 			{
 				ROOM_IDS.Add(BitConverter.ToUInt32(NetUtils.Read(s, sizeof(uint)), 0));
 			}
-		}
-
-		public override void Write(Socket s)
-		{
-			throw new NotImplementedException();
 		}
 	}
 }
