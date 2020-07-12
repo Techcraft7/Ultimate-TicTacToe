@@ -63,6 +63,8 @@ namespace UTTTGameLib
 			winner = AdvanceTurn(hPanel);
 		}
 
+		public void SetPiece(int x, int y, PieceState p) => GameState[y, x] = p;
+
 		public PieceSeperation SeperatePieces()
 		{
 			bool[,] p1 = new bool[8, 8];

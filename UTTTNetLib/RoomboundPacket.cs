@@ -10,18 +10,18 @@ namespace UTTTNetLib
 		{
 			byte[] data = NetUtils.Read(s, sizeof(uint));
 			uint ID = BitConverter.ToUInt32(data, 0);
-			HandleRoomboundServer(s, ID, data.Skip(sizeof(uint)).ToArray());
+			HandleRoomboundServer(s, ID);
 		}
 
 		public override void HandleClientSide(Socket s)
 		{
 			byte[] data = NetUtils.Read(s, sizeof(uint));
 			uint ID = BitConverter.ToUInt32(data, 0);
-			HandleRoomboundClient(s, ID, data.Skip(sizeof(uint)).ToArray());
+			HandleRoomboundClient(s, ID);
 		}
 
-		protected abstract void HandleRoomboundServer(Socket s, uint roomID, byte[] data);
-		protected abstract void HandleRoomboundClient(Socket s, uint roomID, byte[] data);
+		protected abstract void HandleRoomboundServer(Socket s, uint roomID);
+		protected abstract void HandleRoomboundClient(Socket s, uint roomID);
 		
 	}
 }

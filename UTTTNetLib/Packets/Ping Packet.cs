@@ -9,34 +9,27 @@ namespace UTTTNetLib.Packets
 {
 	public class PingPacket : Packet
 	{
+		private static byte[] LAST_PING = new byte[4];
 		private static Random rng = new Random();
-		private static Dictionary<Socket, byte[]> pings = new Dictionary<Socket, byte[]>();
 
-		public override byte GetID() => 0;
+		public override byte GetID() => 0x00;
 		public override void HandleServerSide(Socket s)
 		{
-			byte[] data = NetUtils.Read(s, 4);
-			if (pings.ContainsKey(s))
-			{
-				pings.Remove(s);
-			}
-			pings.Add(s, data);
-			Write(s);
+			Send(s, NetUtils.Read(s, 4));
 		}
 
 		public override void HandleClientSide(Socket s)
 		{
-			if (pings.ContainsKey(s))
+			if (BitConverter.ToInt32(NetUtils.Read(s, 4), 0) != BitConverter.ToInt32(LAST_PING, 0))
 			{
-				NetUtils.SendBytes(s, pings[s]);
-				pings.Remove(s);
+				s.Disconnect(false);
 			}
-			else
-			{
-				byte[] data = new byte[4];
-				rng.NextBytes(data);
-				NetUtils.SendBytes(s, data);
-			}
+		}
+
+		public void Ping(Socket s)
+		{
+			rng.NextBytes(LAST_PING);
+			Send(s, LAST_PING);
 		}
 	}
 }

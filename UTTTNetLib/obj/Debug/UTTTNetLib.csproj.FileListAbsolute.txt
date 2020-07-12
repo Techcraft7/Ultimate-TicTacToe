@@ -17,3 +17,6 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetL
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetLib\obj\Debug\UTTTNetLib.csproj.CoreCompileInputs.cache
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetLib\obj\Debug\UTTTNetLib.dll
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetLib\obj\Debug\UTTTNetLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetLib\bin\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetLib\bin\Debug\UTTTGameLib.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTNetLib\obj\Debug\UTTTNetLib.csproj.CopyComplete

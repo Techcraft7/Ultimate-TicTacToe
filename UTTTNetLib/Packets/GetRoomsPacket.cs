@@ -12,9 +12,15 @@ namespace UTTTNetLib.Packets
 		public static List<uint> ROOM_IDS = new List<uint>();
 
 		public override byte GetID() => 2;
+
 		public override void HandleServerSide(Socket s)
 		{
-			
+			ByteBuffer buf = new ByteBuffer();
+			foreach (uint rID in Server.Rooms.Select(kv => kv.Key))
+			{
+				buf.WriteUInt(rID);
+			}
+			Send(s, buf.ToArray());
 		}
 
 		public override void HandleClientSide(Socket s)

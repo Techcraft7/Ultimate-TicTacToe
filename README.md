@@ -56,13 +56,13 @@ Packets with (RB) next to them are room-bound packets
 C -> S Ping (0x00) <Data: byte[4]>
 S -> C Ping (0x00) <Data: byte[4]> server must respond with the same 4 bytes send by client or client will disconnect.
 C -> S Get Rooms (0x02)
-S -> C Get Rooms (0x02) <Length: int> <Available Rooms:>
+S -> C Get Rooms (0x02) <Length: int> <Available Rooms: uint[]>
 C -> S Join Room (RB) (0x01) <Room ID: uint>
 S -> C Join Room (RB) (0x01) <Status: byte>
 
 ##### Join Room Status
 
-0 = Failed (other)
+0 = Failed
 1 = Success
 
 ### Gameplay
@@ -74,13 +74,13 @@ S -> C Play Piece (RB) (0x??) <State: byte>
 
 ##### Play piece state
 
-0 = Invalid
+0 = Invalid/Not your turn
 1 = Success
 
 #### Getting Board Data
 
-C -> S GetBoard (RB) (0x??) 
-S -> C GetBoard (RB) (0x??) <P1: ulong> <P2: ulong>
+C -> S GetGameState (RB) (0x??) 
+S -> C GetGameState (RB) (0x??) <P1: ulong> <P2: ulong> <TurnIndex: byte>
 
 ##### Notes
 
@@ -93,4 +93,12 @@ Each bit is a piece, the client then converts this into a `PieceState[8, 8]`
 - P1
 - P2
 
-#### 
+#### Disconnect packet
+
+`0xFF<Reason: byte><Length: int><String: byte[Length]>`
+
+##### Reason
+
+0 = normal
+1 = Player 1 wins
+2 = Player 2 wins

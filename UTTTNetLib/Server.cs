@@ -21,11 +21,15 @@ namespace UTTTNetLib
 			new PingPacket(),
 			new JoinRoomPacket(),
 			new GetRoomsPacket(),
-			new HTTPRequestPacket()
+			new HTTPRequestPacket(),
+			new GetGameStatePacket()
 		};
 		public static Server INSTANCE = null;
 
 		private List<Thread> Threads = new List<Thread>();
+
+		public Room GetRoom(uint roomID) => Rooms.Where(r => r.Key == roomID).First().Value;
+
 		private int PORT = -1;
 		public bool Running = true;
 		private Socket SERVER_SOCKET = new Socket(SocketType.Stream, ProtocolType.Tcp);
@@ -136,7 +140,7 @@ namespace UTTTNetLib
 							}
 							if (invalid)
 							{
-								new DisconnectPacket($"Invalid packet: {ID:X2}").Write(s);
+								new DisconnectPacket($"Invalid packet: {ID:X2}").HandleServerSide(s);
 								s.Disconnect(false);
 							}
 						}

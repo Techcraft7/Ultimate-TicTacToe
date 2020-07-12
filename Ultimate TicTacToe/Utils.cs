@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace UltimateTicTacToe
 {
@@ -17,6 +18,14 @@ namespace UltimateTicTacToe
 				{
 					flags[flag].Invoke();
 				}
+			}
+		}
+
+		public static void WaitForTask(Task t)
+		{
+			while (!t.IsCompleted)
+			{
+				Application.DoEvents();
 			}
 		}
 	}

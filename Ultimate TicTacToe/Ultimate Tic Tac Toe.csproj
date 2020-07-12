@@ -116,6 +116,10 @@
       <Project>{6b6436f5-052f-4aef-a4b8-7d97ce9c33b5}</Project>
       <Name>UTTTGameLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UTTTNetLib\UTTTNetLib.csproj">
+      <Project>{F9A56FC3-0C23-451B-84F9-9EE45F5BC58C}</Project>
+      <Name>UTTTNetLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

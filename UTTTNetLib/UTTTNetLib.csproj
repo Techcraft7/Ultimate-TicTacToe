@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ByteBuffer.cs" />
     <Compile Include="NetUtils.cs" />
     <Compile Include="Packet.cs" />
     <Compile Include="Packets\DisconnectPacket.cs" />
+    <Compile Include="Packets\GetGameStatePacket.cs" />
     <Compile Include="Packets\GetRoomsPacket.cs" />
     <Compile Include="Packets\HTTPRequestPacket.cs" />
     <Compile Include="Packets\JoinRoomPacket.cs" />
@@ -61,16 +63,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UCGameLib\UTTTGameLib.csproj">
-      <Project>{6B6436F5-052F-4AEF-A4B8-7D97CE9C33B5}</Project>
-      <Name>UTTTGameLib</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="WebInterface\WebPages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>WebPages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UTTTGameLib\UTTTGameLib.csproj">
+      <Project>{6b6436f5-052f-4aef-a4b8-7d97ce9c33b5}</Project>
+      <Name>UTTTGameLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,3 +18,5 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTServ
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTServer\obj\Debug\UTTTServer.csproj.CopyComplete
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTServer\obj\Debug\UTTTServer.exe
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTServer\obj\Debug\UTTTServer.pdb
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTServer\bin\Debug\UTTTGameLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTServer\bin\Debug\UTTTGameLib.pdb

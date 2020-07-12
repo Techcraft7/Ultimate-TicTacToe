@@ -29,3 +29,5 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate TicTacToe.exe
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate TicTacToe.pdb
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.OnlineGame.resources
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTNetLib.dll
+C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTNetLib.pdb
