@@ -10,6 +10,7 @@ namespace UTTTNetLib
 {
 	using System.Diagnostics;
 	using System.Net;
+	using System.Security.AccessControl;
 	using UTTTNetLib.Packets;
 	using static NetUtils;
 	public class Server
@@ -28,7 +29,7 @@ namespace UTTTNetLib
 
 		private List<Thread> Threads = new List<Thread>();
 
-		public Room GetRoom(uint roomID) => Rooms.Where(r => r.Key == roomID).First().Value;
+		public Room GetRoom(uint roomID) => Rooms.Where(r => r.Key == roomID).FirstOrDefault().Value ?? null;
 
 		private int PORT = -1;
 		public bool Running = true;
@@ -154,6 +155,7 @@ namespace UTTTNetLib
 						}
 					}
 					Log("Client is no longer connected!");
+					INSTANCE.DisconnectPlayer(s.RemoteEndPoint);
 				}
 			}
 			catch (Exception e)
@@ -165,13 +167,21 @@ namespace UTTTNetLib
 			}
 		}
 
+		private void DisconnectPlayer(EndPoint ep)
+		{
+			Rooms.Where(r => r.Value.Player1.Equals(ep)).ToList().ForEach(r => r.Value.Player1 = null);
+			Rooms.Where(r => r.Value.Player2.Equals(ep)).ToList().ForEach(r => r.Value.Player2 = null);
+		}
+
 		private static void CreateRooms(int maxRooms)
 		{
 			Log("Creating rooms...");
 			Random rng = new Random();
 			for (int i = 0; i < maxRooms; i++)
 			{
-				Rooms.Add((uint)rng.Next(), new Room());
+				uint id = (uint)rng.Next();
+				Log($"Created room: {id:X8}");
+				Rooms.Add(id, new Room());
 			}
 			foreach (Room r in Rooms.Values)
 			{

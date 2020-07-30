@@ -30,3 +30,19 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTTest
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTTests\obj\Debug\UTTTTests.csproj.CopyComplete
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTTests\obj\Debug\UTTTTests.dll
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTTests\obj\Debug\UTTTTests.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\UTTTTests.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\UTTTTests.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\UTTTGameLib.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\UTTTGameLib.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\obj\Debug\UTTTTests.csprojAssemblyReference.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\obj\Debug\UTTTTests.csproj.CoreCompileInputs.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\obj\Debug\UTTTTests.csproj.CopyComplete
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\obj\Debug\UTTTTests.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTTests\obj\Debug\UTTTTests.pdb

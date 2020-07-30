@@ -53,6 +53,7 @@ namespace UTTTNetLib.Packets
 			buf.WriteULong(Convert.ToUInt64(binP1, 2));
 			buf.WriteULong(Convert.ToUInt64(binP2, 2));
 			buf.WriteByte((byte)r.TurnIndex);
+			NetUtils.Log($"STATEBUFFER: {BitConverter.ToString(buf.ToArray())}");
 			Send(s, buf.ToArray());
 		}
 	}

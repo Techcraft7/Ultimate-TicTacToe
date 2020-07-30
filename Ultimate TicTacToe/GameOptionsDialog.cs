@@ -26,19 +26,6 @@ namespace UltimateTicTacToe
 		private void OKButton_Click(object sender, EventArgs e)
 		{
 			GameOptions.Players = GameTypeSel.SelectedIndex + 1;
-			GameOptions.Online = OnlineBox.Checked;
-			try
-			{
-				GameOptions.ServerString = ServerBox.Text;
-			}
-			catch
-			{
-				if (GameOptions.Online)
-				{
-					_ = MessageBox.Show("Invalid Server Address!\nFormat: [0-255].[0-255].[0-255].[0-255]:[0-65535]");
-					return;
-				}
-			}
 			DialogResult = DialogResult.OK;
 			Close();
 		}
@@ -52,7 +39,5 @@ namespace UltimateTicTacToe
 		}
 
 		private void GameOptionsDialog_Shown(object sender, EventArgs e) => GameOptions = new GameOptions();
-
-		private void OnlineBox_CheckedChanged(object sender, EventArgs e) => ServerBox.Visible = OnlineBox.Checked;
 	}
 }

@@ -20,6 +20,7 @@ namespace UTTTNetLib.Packets
 			switch (status)
 			{
 				case 1:
+					NetUtils.Log($"JOINED ROOM!");
 					CURRENT_ROOM = roomID;
 					break;
 			}
@@ -41,8 +42,12 @@ namespace UTTTNetLib.Packets
 					r.Player2 = s.RemoteEndPoint;
 					status = 1;
 				}
+				if (status == 1)
+				{
+					NetUtils.Log($"Client joined room {roomID:X8}");
+				}
 			}
-			NetUtils.SendBytes(s, new byte[] { status });
+			SendRoomBound(s, roomID, new byte[] { status });
 		}
 	}
 }

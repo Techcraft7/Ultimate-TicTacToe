@@ -29,16 +29,6 @@ namespace UltimateTicTacToe
 			gameOptions = new GameOptionsDialog();
 		}
 
-		private void StartGame()
-		{
-			if (gameOptions.GameOptions.Online)
-			{
-				_ = new OnlineGame(new IPEndPoint(gameOptions.GameOptions.ServerIP, gameOptions.GameOptions.ServerPort)).ShowDialog();
-			}
-			else
-			{
-				_ = new Game(gameOptions.GameOptions).ShowDialog();
-			}
-		}
+		private void StartGame() => _ = new Game(gameOptions.GameOptions).ShowDialog();
 	}
 }

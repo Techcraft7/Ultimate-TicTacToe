@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -10,12 +11,15 @@ namespace UTTTServer
 {
 	class Program
 	{
+		private const int PORT = 1234;
+		private const int MAX_ROOMS = 5;
 		private static Server s;
 
 		private static void Main(string[] args)
 		{
+			Console.Title = $"UTTTServer | Hosting {MAX_ROOMS} rooms on port {PORT}";
 			Console.CancelKeyPress += Console_CancelKeyPress;
-			s = new Server(1, 6969);
+			s = new Server(MAX_ROOMS, PORT);
 			while (s.Running);
 		}
 

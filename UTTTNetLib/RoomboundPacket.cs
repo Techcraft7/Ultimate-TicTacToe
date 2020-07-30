@@ -22,6 +22,7 @@ namespace UTTTNetLib
 
 		protected abstract void HandleRoomboundServer(Socket s, uint roomID);
 		protected abstract void HandleRoomboundClient(Socket s, uint roomID);
-		
+
+		public void SendRoomBound(Socket s, uint roomID, byte[] data) => NetUtils.SendBytes(s, (new byte[] { GetID() }).Concat(BitConverter.GetBytes(roomID)).Concat(data).ToArray());
 	}
 }

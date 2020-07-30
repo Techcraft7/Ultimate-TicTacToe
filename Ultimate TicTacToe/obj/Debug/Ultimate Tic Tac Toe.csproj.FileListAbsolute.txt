@@ -31,3 +31,21 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.OnlineGame.resources
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTNetLib.dll
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTNetLib.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\Ultimate TicTacToe.exe.config
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\Ultimate TicTacToe.exe
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\Ultimate TicTacToe.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTGameLib.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTNetLib.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTGameLib.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\bin\Debug\UTTTNetLib.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csprojAssemblyReference.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.Game.resources
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.GameOptionsDialog.resources
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.MainWindow.resources
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\UltimateTicTacToe.OnlineGame.resources
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate_TicTacToe.Properties.Resources.resources
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csproj.GenerateResource.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate Tic Tac Toe.csproj.CopyComplete
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate TicTacToe.exe
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\Ultimate TicTacToe\obj\Debug\Ultimate TicTacToe.pdb

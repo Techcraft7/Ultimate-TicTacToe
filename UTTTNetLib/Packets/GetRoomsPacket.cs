@@ -16,10 +16,13 @@ namespace UTTTNetLib.Packets
 		public override void HandleServerSide(Socket s)
 		{
 			ByteBuffer buf = new ByteBuffer();
+			buf.WriteInt(Server.Rooms.Count);
 			foreach (uint rID in Server.Rooms.Select(kv => kv.Key))
 			{
+				NetUtils.Log($"{rID:X8}");
 				buf.WriteUInt(rID);
 			}
+			NetUtils.Log($"GETROOMS BUFFER: {BitConverter.ToString(buf.ToArray())}");
 			Send(s, buf.ToArray());
 		}
 
@@ -27,8 +30,10 @@ namespace UTTTNetLib.Packets
 		{
 			ROOM_IDS.Clear();
 			int size = BitConverter.ToInt32(NetUtils.Read(s, sizeof(int)), 0);
+			NetUtils.Log(size.ToString());
 			for (int i = 0; i < size; i++)
 			{
+				NetUtils.Log("Getting room: " + i);
 				ROOM_IDS.Add(BitConverter.ToUInt32(NetUtils.Read(s, sizeof(uint)), 0));
 			}
 		}

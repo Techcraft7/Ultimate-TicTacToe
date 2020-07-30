@@ -37,6 +37,7 @@ namespace UTTTNetLib.Packets
 		public override void Send(Socket s, byte[] _ = null)
 		{
 			byte[] data = Encoding.ASCII.GetBytes(reason);
+			NetUtils.Log($"Client disconnect: {reason}");
 			NetUtils.Write(s, new byte[] { DISCONNECT_REASON });
 			DISCONNECT_REASON = 0;
 			NetUtils.Write(s, BitConverter.GetBytes(Encoding.ASCII.GetByteCount(reason)));

@@ -10,3 +10,9 @@ C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGame
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.csproj.CoreCompileInputs.cache
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.dll
 C:\Users\mctec\Documents\Visual Studio 2017\Projects\Ultimate TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTGameLib\bin\Debug\UTTTGameLib.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTGameLib\bin\Debug\UTTTGameLib.pdb
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.csprojAssemblyReference.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.csproj.CoreCompileInputs.cache
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.dll
+C:\Users\Techcraft7\Source\Repos\Ultimate-TicTacToe\UTTTGameLib\obj\Debug\UTTTGameLib.pdb

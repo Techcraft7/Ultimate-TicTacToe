@@ -13,7 +13,7 @@ namespace UTTTNetLib
 	{
 		public static void Log(string s, ConsoleColor c = ConsoleColor.Gray)
 		{
-			var prev = Console.ForegroundColor;
+			ConsoleColor prev = Console.ForegroundColor;
 			Console.ForegroundColor = c;
 			Console.WriteLine($"[{Thread.CurrentThread.Name ?? "INFO"}] {s}");
 			Console.ForegroundColor = prev;
@@ -21,8 +21,10 @@ namespace UTTTNetLib
 
 		public static void Log(Exception e)
 		{
-			Log($"{e.GetType()}: {e.Message}", ConsoleColor.Red);
+			Log($"{e.GetType()}: {e.Message}\n{e.StackTrace}", ConsoleColor.Red);
 		}
+
+		public static byte ReadByte(Socket s) => Read(s, 1).First();
 
 		public static byte[] Read(Socket s, int n)
 		{
@@ -59,6 +61,17 @@ namespace UTTTNetLib
 				}
 			}
 			return s;
+		}
+
+		public static bool ParsePacket(Socket s, Packet p)
+		{
+			byte pID = NetUtils.ReadByte(s);
+			if (pID != p.GetID())
+			{
+				return false;
+			}
+			p.HandleClientSide(s);
+			return true;
 		}
 	}
 }
